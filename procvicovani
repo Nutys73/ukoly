@@ -29,3 +29,32 @@ print(soucet)
 random=[1,5,7,9,2,4]
 len(random)
 print(len(random))
+
+#10
+znamky=[2,1,3,1,2,2]
+prumer=sum(znamky)/len(znamky)
+print(prumer)
+
+#11
+ovoce=["jahoda", "broskev", "jablko", "mango", "banán"]
+for o in ovoce:
+    if o=="banán":
+        print("Banán je tam!!")
+    else:
+        print("Banán tam není...")
+
+#12
+seznamCisel=[71,5,32,4,9,12]
+pocetVetsichCisel=0
+for cislo in seznamCisel:
+    if cislo>10:
+        pocetVetsichCisel+=1
+print("Počet čísel větších než 10 je: ", pocetVetsichCisel)
+
+#13
+Znamky = []
+pocetZnamek = int(input("Zadejte kolik známek chcete zadat: "))
+ 
+for i in range(pocetZnamek):
+    Znamka = int(input(f"Zadej známku číslo {i + 1}: "))
+    Znamky.append(Znamka)
