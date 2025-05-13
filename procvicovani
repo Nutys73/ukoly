@@ -1,0 +1,31 @@
+#4
+seznamZvirat=["kočka", "pes", "krysa", "kůň"]
+print(seznamZvirat[1])
+print(seznamZvirat[3])
+
+#5
+seznam=[]
+seznam.append(5)
+seznam.append(9)
+seznam.append(7)
+print(seznam)
+
+#6
+filmy=["After", "Rychle a zběsile", "Culpa mia", "Pán prstenů", "Wonder woman"]
+for filmy in filmy:
+    print(filmy)
+
+#7
+cisla=[1,5,8]
+cisla[1]=999
+print(cisla)
+
+#8
+cislaRandom=[5,6,7,1,8]
+soucet=sum(cislaRandom)
+print(soucet)
+
+#9
+random=[1,5,7,9,2,4]
+len(random)
+print(len(random))
